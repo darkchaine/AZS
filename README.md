@@ -10,32 +10,34 @@
 erDiagram
     Clients ||--o{ Nakladnaya : places
     Clients {
+        int id
         string Name
         int Number
-        string Inn
-        string Kpp
+        string Address
+        int Index
+        string Email
     }
   
     Nakladnaya {
-        int PlatelshikId
+        int id
         string Name
-        string Summa
+        string Description
     }
-  Car ||--o{ Nakladnaya: is
-    Car {
-        string Marka
-        string Model
-        string Gos_Number
-        string ViN
-        int Probeg
+  Fuel ||--o{ Nakladnaya: is
+    Fuel {
+        int id
+        string Name
+        string Edizmer
+        int Value
     }
  Postavshik ||--o{ Nakladnaya: is
   Postavshik {
-    string Name
-    int Kpp
-    string Adres
-    int Number
-    int Inn   
+    int id
+    string Email
+    string name
+    string Address
+    int Index
+    int RS   
     string DoverenoeL
    }
 ```
