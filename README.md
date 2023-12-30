@@ -38,6 +38,5 @@ erDiagram
     string Address
     int Index
     int RS   
-    string DoverenoeL
    }
 ```
