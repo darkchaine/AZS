@@ -4,6 +4,8 @@
 -------------------------------
 Тема: Web Api-Автозаправки
 -------------------------------
+![image](https://github.com/darkchaine/AZS/assets/48962624/b5b713bf-e23e-4540-8e11-aba599fe5806)
+-------------------------------
 ```mermaid
 erDiagram
     Clients ||--o{ Nakladnaya : places
