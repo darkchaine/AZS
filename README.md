@@ -8,9 +8,10 @@
 -------------------------------
 ```mermaid
 erDiagram
-    Platelshik ||--o{ Nakladnaya : places
-    Platelshik {
+    Clients ||--o{ Nakladnaya : places
+    Clients {
         string Name
+        int Number
         string Inn
         string Kpp
     }
